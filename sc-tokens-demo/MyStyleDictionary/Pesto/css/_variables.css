@@ -1,0 +1,29 @@
+/**
+ * Do not edit directly
+ * Generated on Thu, 12 Nov 2020 13:15:20 GMT
+ */
+
+:root {
+  --color-brand-primary: #30be76;
+  --color-brand-secondary: #f8b449;
+  --color-brand-tertiary: #f84971;
+  --color-text-body: #aaaaaa;
+  --color-text-h-1: #030f09;
+  --color-text-white: #ffffff;
+  --color-core-black: #030f09;
+  --color-core-green: #30be76;
+  --color-core-mdgrey: #aaaaaa;
+  --color-core-orange: #f8b449;
+  --color-core-red: #f84971;
+  --color-core-white: #ffffff;
+  --size-font-large: 24rem;
+  --size-font-medium: 18rem;
+  --size-font-small: 12rem;
+  --btn-bg-hover: #f8b449;
+  --btn-bg-primary: #30be76;
+  --btn-bg-secondary: #ffffff;
+  --btn-border-hover: #f8b449;
+  --btn-border-primary: #30be76;
+  --btn-border-secondary: #30be76;
+  --btn-color-secondary: #30be76;
+}

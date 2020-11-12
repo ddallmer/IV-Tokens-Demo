@@ -1,0 +1,14 @@
+DSM_TOKENS_URL=https://sc-v6-demo.invisionapp.com/dsm-export/in-vision-solution-consulting/dd-design-tokens/tokens-style-dictionary.zip
+API_KEY=SJiIug0Ov
+ZIP_FILE=tmp/dsm-style-dictionary.zip
+PROPERTIES_DIR=tmp
+# Create temporary dir.
+mkdir -p tmp
+# Download and unzip property files
+curl -H "X-API-KEY: $API_KEY" $DSM_TOKENS_URL --output $ZIP_FILE
+mkdir -p $PROPERTIES_DIR
+unzip $ZIP_FILE -d $PROPERTIES_DIR
+# Create styles.
+style-dictionary build --config ./tokens/config.json
+# Clean up.
+rm -rf tmp
